@@ -1,0 +1,60 @@
+{
+  "format": 1,
+  "title": {
+    "en": "thntime dsh plugins",
+    "zh": "thntime 插件源"
+  },
+  "description": {
+    "en": "Plugins published by thntime for DeepSeek Harness.",
+    "zh": "thntime 发布给 DeepSeek Harness 的插件。"
+  },
+  "metadata": {
+    "categories": {
+      "models": {
+        "title": "Models & providers"
+      }
+    },
+    "labels": {
+      "models": {
+        "title": "Models & providers"
+      }
+    }
+  },
+  "plugins": [
+    {
+      "name": "dsh-new-api-model-sync",
+      "title": {
+        "en": "New API model sync",
+        "zh": "New API 模型同步"
+      },
+      "description": {
+        "en": "Pulls the model catalogue of a new-api (OpenAI-compatible) deployment and writes it into the profile as DSH model entries, without a restart.",
+        "zh": "从 new-api（OpenAI 兼容）部署拉取模型清单，写进配置档的 DSH 模型条目，不用重启。"
+      },
+      "author": "thntime",
+      "homepage": "https://github.com/thntime/dsh-new-api-model-sync#readme",
+      "repository": {
+        "url": "https://github.com/thntime/dsh-new-api-model-sync"
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OCA0OCIgd2lkdGg9IjQ4IiBoZWlnaHQ9IjQ4IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9Ik5ldyBBUEkgbW9kZWwgc3luYyI+CiAgPHJlY3QgeD0iMiIgeT0iMiIgd2lkdGg9IjQ0IiBoZWlnaHQ9IjQ0IiByeD0iMTEiIGZpbGw9IiMxMjIwM2EiLz4KICA8ZyBmaWxsPSJub25lIiBzdHJva2U9IiM1ZmQwZmYiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj4KICAgIDxwYXRoIGQ9Ik0zMy41IDE1LjVhMTEgMTEgMCAwIDAtMTcuOC0xLjIiLz4KICAgIDxwYXRoIGQ9Ik0xNC41IDMyLjVhMTEgMTEgMCAwIDAgMTcuOCAxLjIiLz4KICAgIDxwYXRoIGQ9Ik0zMS42IDkuMnY2LjZoLTYuNiIvPgogICAgPHBhdGggZD0iTTE2LjQgMzguOHYtNi42aDYuNiIvPgogIDwvZz4KICA8ZyBmaWxsPSIjZmZkMTY2Ij4KICAgIDxjaXJjbGUgY3g9IjI0IiBjeT0iMTgiIHI9IjIuMiIvPgogICAgPGNpcmNsZSBjeD0iMTgiIGN5PSIyNSIgcj0iMi4yIi8+CiAgICA8Y2lyY2xlIGN4PSIzMCIgY3k9IjI1IiByPSIyLjIiLz4KICAgIDxjaXJjbGUgY3g9IjI0IiBjeT0iMzEiIHI9IjIuMiIvPgogIDwvZz4KPC9zdmc+Cg==",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "publishTimestamp": 1795055907,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.1 <0.3.0"
+          }
+        }
+      ],
+      "metadata": {
+        "category": "models",
+        "labels": [
+          "models"
+        ]
+      }
+    }
+  ]
+}
